@@ -5,7 +5,8 @@
 	<parent>
 		<groupId>org.jenkins-ci.plugins</groupId>
 		<artifactId>plugin</artifactId>
-		<version>2.12</version>
+		<version>4.51</version>
+		<relativePath/>
 	</parent>
 
 	<artifactId>weblogic-deployer-plugin</artifactId>
@@ -42,9 +43,8 @@
 	<properties>
 		<!-- Baseline Jenkins version you use to build the plugin. Users must have 
 			this version or newer to run. -->
-		<jenkins.version>1.580.1</jenkins.version>
+		<jenkins.version>2.346.3</jenkins.version>
 		<!-- Java Level to use. Java 7 required when using core >= 1.612 -->
-		<java.level>6</java.level>
 		<hpi.dependencyResolution>runtime</hpi.dependencyResolution>
 		<!-- Jenkins Test Harness version you use to test the plugin. -->
 		<!-- For Jenkins version >= 1.580.1 use JTH 2.x or higher. -->
